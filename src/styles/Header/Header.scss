@@ -1,0 +1,73 @@
+@use "../variable.scss";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 50px 45px 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(104, 104, 104, 0.5);
+
+  &.sticky {
+    position: fixed;
+    top: 0; // Rester en haut de la page
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(104, 104, 104, 0.5); 
+    z-index: 1000; 
+    margin: 10px 50px;
+    height: 0px;
+  }
+
+  .Logo h1 {
+    color: variable.$colorViolet;
+    font-family: variable.$font-family-fantasy;
+    font-size: variable.$font-size-xxlarge;
+    margin: 0;
+  }
+
+  .nav-link {
+    display: flex;
+    gap: 30px;
+    font-family: variable.$font-family;
+  }
+  .nav-link a {
+    text-decoration: none;
+    color: variable.$colorViolet;
+    font-size: variable.$font-size-medium;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  .nav-link a.active {
+    text-decoration-color: variable.$colorViolet;
+    font-size: variable.$font-size-large;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+    .Logo h1 {
+      font-size: variable.$font-size-large;
+    }
+    .nav-link a {
+      text-decoration: none;
+      color: variable.$colorViolet;
+      font-size: variable.$font-size-xsmall;
+    }
+    .nav-link a.active {
+      font-size: variable.$font-size-small;
+    }
+  }
+}

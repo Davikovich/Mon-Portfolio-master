@@ -1,0 +1,68 @@
+@use "../variable.scss";
+
+.projet-page {
+  padding-top: 40px;
+  margin-bottom: 200px;
+
+  .dessous-image {
+    .title {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: variable.$font-family;
+      color: variable.$colorViolet;
+      font-size: variable.$font-size-medium;
+      padding-top: 10px;
+      margin-top: 30px;
+    }
+    .lien {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: variable.$font-family-fantasy;
+      color: variable.$colorViolet;
+      font-size: variable.$font-size-medium;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+  }
+}
+
+.projet-collapse {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .projet-page {
+    padding-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 100px;
+    background-color: variable.$colorPink;
+
+    .dessous-image {
+      gap: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+      .title {
+        font-size: variable.$font-size-small;
+        margin-top: 20px;
+      }
+      .lien {
+        font-size: variable.$font-size-small;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .projet-collapse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+}

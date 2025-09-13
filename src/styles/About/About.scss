@@ -1,0 +1,40 @@
+@use "../variable.scss";
+
+.apropos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 200px 100px 200px;
+  background-color: variable.$colorPink;
+  img {
+    height: auto;
+    float: left;
+    margin-right: 30px;
+  }
+  p {
+    line-height: 1.5;
+    font-size: variable.$font-size-base;
+    font-family: variable.$font-family;
+    color: variable.$colorViolet;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .apropos {
+    display: flex;
+    flex-direction: none;
+    gap: 20px;
+    padding: 40px 20px 40px 20px;
+
+    img {
+      width: 20%;
+      float: right;
+      margin-left: 20px;
+      margin-right: 0;
+    }
+    p {
+      line-height: 1.3;
+      font-size: variable.$font-size-xsmall;
+    }
+  }
+}

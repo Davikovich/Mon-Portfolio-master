@@ -1,0 +1,93 @@
+@use "../variable.scss";
+
+.collapse {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 450px;
+ 
+  .collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    text-align: left;
+    background-color: variable.$colorPink;
+    color: variable.$colorViolet;
+    font-size: variable.$font-size-medium;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    width: 100%;
+
+    .arrow {
+      transition: transform 0.2s ease;
+      color: black;
+      font-family: variable.$font-family-fantasy;
+    }
+
+    .chevron {
+      transition: transform 0.2s ease;
+      width: 32px;
+      height: 32px;
+      color: black;
+    }
+
+    .chevron.open {
+      transform: rotate(-180deg);
+    }
+  }
+  .collapse-content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: variable.$colorPink;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    p {
+      margin: 20px;
+      overflow-wrap: break-word;
+      text-align: justify;
+      font-size: variable.$font-size-base;
+    }
+  }
+
+  .collapse-content.open {
+    max-height: 500px;
+    font-family: variable.$font-family;
+
+    ul{
+        list-style-type: none;
+        padding-left: 20px;
+        
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .collapse {
+    width: 250px;
+    .collapse-header {
+      font-size: 13px;
+      margin-top: 20px;
+      .arrow{
+        font-size: variable.$font-size-small;
+      }
+      .chevron {
+        width: 16px;
+      }
+    }
+    .collapse-content {
+      font-size: variable.$font-size-xsmall;
+      background-color: white;
+      p{
+        font-size: variable.$font-size-small;
+      }
+    }
+
+    
+  }
+}

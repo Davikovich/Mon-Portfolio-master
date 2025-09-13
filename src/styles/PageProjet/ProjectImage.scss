@@ -1,0 +1,20 @@
+@use "../variable.scss";
+
+.project-image{
+    display: flex;
+    justify-content: center;
+    .project-cover{
+        height: 400px;
+        border-radius: 10px;
+        border: 1px solid variable.$colorViolet;
+        box-shadow: 0px 4px 8px rgba(104, 104, 104, 0.5);
+    }
+}
+
+@media (min-width: 360px) and (max-width: 768px){
+    .project-image{
+        .project-cover{
+            height: 150px;
+        }
+    }
+}

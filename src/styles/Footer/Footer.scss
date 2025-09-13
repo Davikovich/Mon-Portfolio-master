@@ -1,0 +1,78 @@
+@use "../variable.scss";
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+  gap: 10px;
+  .icone-contact{
+    color: variable.$colorViolet;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  .contact {
+    font-family: variable.$font-family;
+    font-size: variable.$font-size-small;
+    color: variable.$colorViolet;
+    font-weight: bold;
+  }
+  .profil-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+     a{
+      color: variable.$colorViolet;
+     }
+  }
+  .contact-link {
+    text-decoration: none;
+  }
+  .mail {
+    font-family: variable.$font-family;
+    font-size: variable.$font-size-xsmall;
+    color: variable.$colorViolet;
+  }
+}
+.footer-projet {
+  margin: 0;
+  padding: 50px 0px 50px 0px;
+  background-color: variable.$colorViolet;
+  color: white;
+  .contact{
+    color: white;
+  }
+  .icone-contact {
+    color: white;
+  }
+  .profil-contact{
+    gap: 20px;
+    
+    svg{
+      color: white;
+    }
+  }
+  .mail {
+    color: white;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .footer {
+    margin: 0;
+    padding: 30px 0px 30px 0;
+    gap: 5px;
+
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+    .contact {
+      font-size: variable.$font-size-xsmall;
+    }
+  }
+}
