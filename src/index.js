@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Projet from "./pages/Projet";
+import Competences from "./pages/Competences";
 import Footer from "./components/Footer";
 import "./styles/main.scss";
 
@@ -19,6 +20,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projet/:id" element={<Projet />} />
+        <Route path="/competences" element={<Competences />} />
       </Routes>
       <Footer />
     </Router>

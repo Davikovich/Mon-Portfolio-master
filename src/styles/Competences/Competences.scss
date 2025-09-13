@@ -1,0 +1,48 @@
+@use "../variable.scss";
+
+.competences {
+  padding: 2rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: variable.$font-family;
+
+  &__header {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: variable.$font-size-xxlarge;
+      color: variable.$colorViolet;
+      margin: 0 0 0.5rem 0;
+    }
+    p {
+      font-size: variable.$font-size-small;
+      color: variable.$colorViolet;
+      opacity: 0.8;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+
+  &__card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    padding: 1rem;
+
+    h2 {
+      font-size: variable.$font-size-large;
+      color: variable.$colorViolet;
+      margin: 0.25rem 0 1rem 0;
+    }
+
+    /* La classe .collapse vient de ton composant existant */
+    .collapse {
+      width: 100%; /* sur cette page, on veut la pleine largeur de la carte */
+    }
+  }
+}
