@@ -1,28 +1,31 @@
 // src/pages/Competences.jsx
 import React from "react";
 import Collapse from "../components/Collapse";
+import htmlLogo from "../logos/html5.svg"
 
 
 
 
 const Competences = () => {
     const front = [
-       "HTML5 (sémantique, accessibilité de base)", 
-       "CSS3 / Sass (BEM, animations, responsive)", 
-       "JavaScript (ES6+)", "React (hooks, router, composants réutilisables)"
+       "HTML5", 
+       "CSS3 / Sass", 
+       "JavaScript (ES6+)",
+       "React",
       ];
 
   const back = [
-    "Node.js / Express (bases)",
-    "API REST (consommation, erreurs, loaders)",
-    "Gestion des données (JSON, mock, pagination)",
+    "Node.js / Express",
+    "API REST",
+    "MangooDB",
+    "Gestion des données",
   ];
 
   const outils = [
-    "Git / GitHub (branching, PR, issues)",
-    "Vite / CRA, NPM scripts",
-    "Figma (lecture de maquettes)",
-    "Lighthouse, Web Vitals (perf de base)",
+    "Git / GitHub",
+    "Vite",
+    "Figma",
+    "Lighthouse, Wave",
   ];
 
   return (
@@ -30,7 +33,7 @@ const Competences = () => {
       <section className="competences__header">
         <h1>Mes Compétences</h1>
         <p>
-          Un aperçu clair de mes stacks, outils et pratiques que j’utilise au quotidien.
+          Voici un résumé de mes compétences
         </p>
       </section>
 
@@ -46,7 +49,7 @@ const Competences = () => {
         </div>
 
         <div className="competences__card">
-          <h2>Outils & Méthodes</h2>
+          <h2>Outils</h2>
           <Collapse title="Outils" content={outils} />
         </div>
       </section>
