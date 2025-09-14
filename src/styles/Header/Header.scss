@@ -25,12 +25,14 @@
     font-family: variable.$font-family-fantasy;
     font-size: variable.$font-size-xxlarge;
     margin: 0;
+    text-shadow: 3px 3px 8px #00000042;
   }
 
   .nav-link {
     display: flex;
     gap: 30px;
     font-family: variable.$font-family;
+    text-shadow: 3px 3px 8px #00000042;
   }
   .nav-link a {
     text-decoration: none;

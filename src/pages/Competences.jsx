@@ -1,7 +1,6 @@
 // src/pages/Competences.jsx
 import React from "react";
 import Collapse from "../components/Collapse";
-import htmlLogo from "../logos/html5.svg"
 
 
 
