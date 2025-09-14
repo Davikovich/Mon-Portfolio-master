@@ -77,11 +77,12 @@
 		"title": "Projet 6: Planifiez le développement du site de votre client",
 		"cover": "/assets/imagep6.webp",
 		"pictures":  "/assets/imagep6.webp",
-		"lien": "https://www.notion.so/1009b573b27080e580d7ff2ea3c3ea9a?v=2629b573b2708083b1ef000c0dc06d51",
+		"lien": "https://github.com/Davikovich/Webgencia",
 		"description":"Dans ce projet, j'ai planifié le développement d'un site web en me basant sur une maquette fournie. J'ai utilisé la méthode Agile Scrum pour organiser le travail et favoriser la gestion autonome du projet. Grâce à un tableau Kanban, j'ai pu visualiser l'avancement des tâches et assurer un suivi structuré, tout en élaborant des documents de spécifications techniques pour clarifier les besoins fonctionnels. La principale problématique a été de découper les user stories en tâches réalisables. Pour surmonter cette difficulté, j'ai décomposé chaque fonctionnalité en sous-tâches claires et gérables, ce qui m'a permis de progresser de manière fluide.",
 		"technologies": [
 			"Kanban",
-			"Méthodologie Agile/scrum"
+			"Méthodologie Agile/scrum",
+			"Systeme de Veille"
 		]
 	}
     
