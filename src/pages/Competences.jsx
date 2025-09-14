@@ -58,17 +58,17 @@ const Competences = () => {
     <div key="Vite" className="skill-row">
       <span className="skill-name">Vite</span>
       <meter min="0" max="100" value={75} aria-label="Vite 75%" className="skill-meter" />
-      <span className="skill-level">75%</span>
+      <span className="skill-level">80%</span>
     </div>,
     <div key="Figma" className="skill-row">
       <span className="skill-name">Figma</span>
       <meter min="0" max="100" value={70} aria-label="Figma 70%" className="skill-meter" />
-      <span className="skill-level">70%</span>
+      <span className="skill-level">88%</span>
     </div>,
     <div key="Lighthouse, WAVE" className="skill-row">
       <span className="skill-name">Lighthouse, WAVE</span>
       <meter min="0" max="100" value={68} aria-label="Lighthouse, WAVE 68%" className="skill-meter" />
-      <span className="skill-level">68%</span>
+      <span className="skill-level">90%</span>
     </div>,
   ];
 
