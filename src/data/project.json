@@ -5,7 +5,7 @@
 		"cover": "/assets/imagep1.webp",
 		"pictures": "/assets/imagep1.webp",
 		"lien": "https://github.com/Davikovich/Projet2-Booki",
-		"description": "J'ai créé une page d'accueil moderne et responsive pour une agence de voyage en utilisant HTML et CSS. Ce projet incluait l'intégration des maquettes Figma pour mobile, tablette, et desktop. Les obstacles rencontrés ont été le fait d'assurer que la page soit parfaitement responsive et s'adapte harmonieusement aux tailles d'écran. Pour surmonter ces obstacles j'ai utilisé les média queries pour ajuster les élèments en fonction de la résolution et j'ai appliqué des tailles en pourcentage pour que les éléments s'adaptent proportionnellement à l'écran.",
+		"description": "J’ai réalisé la page d’accueil d’une agence de voyage en HTML et CSS, à partir des maquettes Figma prévues pour mobile, tablette et desktop. Le principal défi était d’assurer une parfaite adaptabilité sur tous les écrans. Pour y parvenir, j’ai utilisé des media queries et des tailles en pourcentage, garantissant une mise en page fluide et responsive.",
 		"technologies": [
 			"HTML",
 			"CSS",
@@ -20,7 +20,7 @@
 		"cover": "/assets/imagep2.webp",
 		"pictures": "/assets/imagep2.webp",
 		"lien": "https://github.com/Davikovich/Projet3-SophieBluel-master",
-		"description":"Développement d'une page web interactive en JavaScript pour présenter les réalisations d'une architecte d'intérieur. Le travail incluait une page de connexion, la création de modales, et la communication avec une API. Ce projet a renforcé mes compétences en JavaScript, en gestion d'API et en création d’interfaces dynamiques. Le principal défi a été de gérer l'authentification sur la page de connexion et de garantir une communication fluide avec l'API pour récupérer et afficher les données en temps réel. Pour résoudre ces problématiques, j'ai utilisé des sessions sécurisées avec JWT pour gérer l'authentification, et j’ai mis en place des requêtes asynchrones avec fetch pour communiquer avec l'API, tout en ajoutant une gestion des erreurs pour une meilleure expérience utilisateur" ,
+		"description":"J’ai développé une page web interactive en JavaScript pour présenter les projets d’une architecte d’intérieur. Le projet comprenait une page de connexion, des modales et la connexion à une API. Le défi principal était de gérer l’authentification et d’assurer une communication fluide avec l’API en temps réel. Pour y parvenir, j’ai utilisé des sessions sécurisées avec JWT et des requêtes asynchrones via fetch, accompagnées d’une gestion des erreurs pour améliorer l’expérience utilisateur." ,
 		"technologies": [
 			"HTML",
 			"CSS",
@@ -34,7 +34,7 @@
 		"cover": "/assets/imagep3.webp",
 		"pictures": "/assets/imagep3.webp",
 		"lien": "https://github.com/Davikovich/Nina-Carducci-Dev-master",
-		"description": "Ce projet avait pour objectif d'optimiser le référencement d'un site en identifiant et corrigeant les problèmes de performance avec les outils Lighthouse et Wave. J’ai proposé et appliqué des améliorations pour optimiser la vitesse de chargement et la structure du code, renforçant ainsi mes compétences en SEO et en performance web. Le principal défi a été de comprendre pourquoi le carrousel ne fonctionnait pas correctement, d'autant plus que le code utilisait jQuery, une librairie que je ne maîtrisais pas. En utilisant les DevTools, j’ai pu identifier que le problème venait de l’incrémentation et de la décrémentation des index au mauvais endroit, ce qui m’a permis de corriger le carrousel et d’optimiser la fluidité du site",
+		"description": "J’ai travaillé sur l’optimisation SEO et performance d’un site en utilisant Lighthouse et Wave pour détecter les problèmes. J’ai amélioré la vitesse de chargement et la structure du code, ce qui m’a permis de renforcer mes compétences en référencement et en optimisation web. Le défi principal concernait un carrousel défaillant en jQuery, une librairie que je ne maîtrisais pas. Grâce aux DevTools, j’ai identifié que l’erreur venait de la gestion des index, ce qui m’a permis de corriger le carrousel et d’améliorer la fluidité du site.",
 		"technologies": [
 			"Lightouse",
 			"Wave",
@@ -47,7 +47,7 @@
 		"cover": "/assets/imagep4.webp",
 		"pictures": "/assets/imagep4.webp",
 		"lien": "https://github.com/Davikovich/Kasa_FRv2",
-		"description": "J'ai implémenté le front-end d'une application en utilisant React et React Router, créant ainsi une expérience utilisateur moderne et réactive. En m'appuyant sur le principe des composants de React, facilite la gestion des données et la navigation entre les différentes pages. Le principal obstacle pour ce projet a été de gérer efficacement les états de l'application sans dupliquer les données. J'ai résolu ce probléme en utilisant les composants et les hooks de React, ce qui m'a permis de simplifié la gestion des données ",
+		"description": "J’ai développé le front-end d’une application avec React et React Router afin d’offrir une navigation fluide et une expérience utilisateur moderne. L’enjeu principal était de gérer les états sans dupliquer les données. Pour y parvenir, j’ai utilisé les composants et les hooks de React, ce qui a simplifié la gestion et amélioré la cohérence des données.",
 		"technologies": [
 			"React",
 			"React-Router",
@@ -62,7 +62,7 @@
 		"cover": "/assets/imagep5.webp",
 		"pictures": "/assets/imagep5.webp",
 		"lien": "https://github.com/Davikovich/MonVieuxGrimmoire-FullStack",
-		"description": "J'ai développé le back-end d'une application en utilisant Express et MongoDB, avec des opérations CRUD pour gérer les livres et les notations, ainsi qu'un système d'authentification sécurisé pour les utilisateurs. Le principal défi rencontré a été la gestion de fichiers portant des noms identiques, comme ceux contenant la logique métier et les routes, ce qui créait de la confusion. J'ai surmonté ce problème en réorganisant la structure du projet, en séparant clairement chaque fichier et en utilisant des noms explicites ",
+		"description": "J’ai développé le back-end d’une application avec Express et MongoDB, incluant des opérations CRUD pour gérer les livres et les notations, ainsi qu’un système d’authentification sécurisé.",
 		"technologies": [
 			"Express",
 			"NodeJs",
@@ -78,7 +78,7 @@
 		"cover": "/assets/imagep6.webp",
 		"pictures":  "/assets/imagep6.webp",
 		"lien": "https://github.com/Davikovich/Webgencia",
-		"description":"Dans ce projet, j'ai planifié le développement d'un site web en me basant sur une maquette fournie. J'ai utilisé la méthode Agile Scrum pour organiser le travail et favoriser la gestion autonome du projet. Grâce à un tableau Kanban, j'ai pu visualiser l'avancement des tâches et assurer un suivi structuré, tout en élaborant des documents de spécifications techniques pour clarifier les besoins fonctionnels. La principale problématique a été de découper les user stories en tâches réalisables. Pour surmonter cette difficulté, j'ai décomposé chaque fonctionnalité en sous-tâches claires et gérables, ce qui m'a permis de progresser de manière fluide.",
+		"description":"J’ai planifié le développement d’un site web à partir d’une maquette en appliquant la méthode Agile Scrum. J’ai organisé le projet avec un tableau Kanban pour suivre l’avancement et rédigé des spécifications techniques afin de clarifier les besoins. Le principal défi a été de découper les user stories en tâches concrètes. Je l’ai surmonté en les décomposant en sous-tâches claires et réalisables, ce qui a permis une progression fluide tout au long du projet.",
 		"technologies": [
 			"Kanban",
 			"Méthodologie Agile/scrum",
