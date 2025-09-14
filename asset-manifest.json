@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Davikovich/Mon-Portfolio-master/static/css/main.b45165c7.css",
+    "main.js": "/Davikovich/Mon-Portfolio-master/static/js/main.c97e3aa0.js",
+    "index.html": "/Davikovich/Mon-Portfolio-master/index.html",
+    "main.b45165c7.css.map": "/Davikovich/Mon-Portfolio-master/static/css/main.b45165c7.css.map",
+    "main.c97e3aa0.js.map": "/Davikovich/Mon-Portfolio-master/static/js/main.c97e3aa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b45165c7.css",
+    "static/js/main.c97e3aa0.js"
+  ]
+}
