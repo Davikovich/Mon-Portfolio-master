@@ -29,8 +29,8 @@ const Competences = () => {
   const back = [
     <div key="Node.js / Express" className="skill-row">
       <span className="skill-name">Node.js</span>
-      <meter min="0" max="100" value={70} aria-label="Node.js / Express 70%" className="skill-meter" />
-      <span className="skill-level">70%</span>
+      <meter min="0" max="100" value={75} aria-label="Node.js / Express 75%" className="skill-meter" />
+      <span className="skill-level">75%</span>
     </div>,
     <div key="API REST" className="skill-row">
       <span className="skill-name">API REST</span>
